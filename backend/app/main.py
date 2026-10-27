@@ -7,6 +7,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from app.config import settings
 from app.db import init_db
+from app.routers import uploads
 from app.schemas import HealthResponse
 
 logging.basicConfig(
@@ -35,6 +36,8 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+app.include_router(uploads.router)
 
 
 @app.get("/health", response_model=HealthResponse)
