@@ -1,0 +1,37 @@
+# Environment / secrets
+.env
+*.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Node / frontend
+node_modules/
+dist/
+.vite/
+
+# Database (created at runtime)
+backend/autoscout.db
+*.sqlite3
+
+# LLM response cache
+backend/.llm_cache/
+
+# Output artifacts (created at runtime by automations)
+data/output/
+
+# Logs
+*.log
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
