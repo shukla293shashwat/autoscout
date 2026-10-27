@@ -1,0 +1,565 @@
+id,date,from,to,subject,body,labels
+E001,01/10/2025 04:20 PM,maya.rao@brightloop.io,dana.whitfield@brightloop.io,"Weekly Pipeline Status - Friday, Jan 10, 2025","Hi all,
+
+Here's the weekly pipeline status as of Friday, Jan 10, 2025.
+
+Pipeline summary
+- Total open pipeline: $1.84M
+- New leads added this week: 30
+- Deals advancing to next stage: 7
+- Deals at risk / stalled: 3
+- Forecast for the quarter: $612K
+
+Key updates
+- Northwind Logistics moved to proposal stage.
+- Two demos booked from last week's inbound batch.
+- Renewal for Meridian Bank pushed to next month.
+
+Action items
+- Review the two deals flagged at risk before Monday's standup.
+- Confirm demo slots for the new inbound leads.
+
+Full details are in the leads sheet. Shout if anything looks off.
+
+Thanks,
+Maya
+Sales Operations",sent
+E002,06-Jan-2025 17:05,maya.rao@brightloop.io,dana.whitfield@brightloop.io,"Weekly pipeline status – Monday, Jan 6, 2025","Hi team,
+
+Quick summary of where the pipeline stands (Monday, Jan 6, 2025):
+
+* Open pipeline: $1.79M (24 new leads this week)
+* Advancing: 5 deals moved stage; 4 need attention
+* Forecast: $598K
+
+Notes:
+- Apex Retail Group asked for a security questionnaire.
+- Two stalled deals re-engaged after outreach.
+
+The updated leads sheet is attached as usual. Let me know if you spot anything
+missing before the forecast call.
+
+Best,
+Maya",sent
+E003,01/09/2025 04:45 PM,maya.rao@brightloop.io,dana.whitfield@brightloop.io,"Weekly Status: Pipeline & Deals - Thursday, Jan 9, 2025","Hi all,
+
+Here's the weekly pipeline status as of Thursday, Jan 9, 2025.
+
+Pipeline summary
+- Total open pipeline: $1.81M
+- New leads added this week: 27
+- Deals advancing to next stage: 6
+- Deals at risk / stalled: 3
+- Forecast for the quarter: $605K
+
+Key updates
+- Brightline Media demo went well; proposal out Monday.
+- Corevault Systems procurement review scheduled.
+- Helio Mobility trial extended by two weeks.
+
+Action items
+- Review the two deals flagged at risk before Monday's standup.
+- Confirm demo slots for the new inbound leads.
+
+Full details are in the leads sheet. Shout if anything looks off.
+
+Thanks,
+Maya
+Sales Operations",sent
+E004,2025-01-08 15:30,maya.rao@brightloop.io,dana.whitfield@brightloop.io,"Weekly Pipeline Snapshot - Wednesday, Jan 8, 2025","Hi team,
+
+Quick summary of where the pipeline stands (Wednesday, Jan 8, 2025):
+
+* Open pipeline: $1.77M (22 new leads this week)
+* Advancing: 4 deals moved stage; 5 need attention
+* Forecast: $590K
+
+Notes:
+- Ironclad Insurance stalled — champion went quiet.
+- Greenfield Pharma asked for ROI numbers.
+
+The updated leads sheet is attached as usual. Let me know if you spot anything
+missing before the forecast call.
+
+Best,
+Maya",sent
+E005,07-Jan-2025 16:10,maya.rao@brightloop.io,dana.whitfield@brightloop.io,"Pipeline update for the week of Tuesday, Jan 7, 2025","Hi all,
+
+Here's the weekly pipeline status as of Tuesday, Jan 7, 2025.
+
+Pipeline summary
+- Total open pipeline: $1.72M
+- New leads added this week: 18
+- Deals advancing to next stage: 3
+- Deals at risk / stalled: 5
+- Forecast for the quarter: $575K
+
+Key updates
+- Juniper Networks demo rescheduled to next week.
+- Orbital Freight signed a one-year extension.
+- Two new SDRs ramping on the new playbook.
+
+Action items
+- Review the two deals flagged at risk before Monday's standup.
+- Confirm demo slots for the new inbound leads.
+
+Full details are in the leads sheet. Shout if anything looks off.
+
+Thanks,
+Maya
+Sales Operations",sent
+E006,01/10/2025 05:30 PM,maya.rao@brightloop.io,dana.whitfield@brightloop.io,"Friday status: pipeline, leads & deals – Jan 10, 2025","Hi team,
+
+Quick summary of where the pipeline stands (Friday, Jan 10, 2025 (second pass)):
+
+* Open pipeline: $1.85M (31 new leads this week)
+* Advancing: 7 deals moved stage; 3 need attention
+* Forecast: $615K
+
+Notes:
+- Two proposals sent — Northwind and Brightline.
+- Security review started for Apex Retail.
+
+The updated leads sheet is attached as usual. Let me know if you spot anything
+missing before the forecast call.
+
+Best,
+Maya",sent
+E010,06-Jan-2025 08:00,priya.mehta@northwindlogistics.com,maya.rao@brightloop.io,Demo request - Northwind Logistics,"Hi,
+
+We're evaluating CRM automation tools and your product came up. Could we book a demo?
+
+We're a ops team at Northwind Logistics and we're comparing a few options. Happy to work around your calendar.
+
+Thanks,
+Priya
+Priya Mehta
+Northwind Logistics",inbox
+E011,01/06/2025 09:03 AM,maya.rao@brightloop.io,priya.mehta@northwindlogistics.com,Re: Demo request - Northwind Logistics,"Hi Priya,
+
+Thanks for your interest in AutoScout! I'd love to show you around.
+
+Here's my calendar link: https://cal.com/maya/30min
+
+Feel free to grab any slot that works for you. Looking forward to connecting!
+
+Best,
+Maya",sent
+E012,01/07/2025 09:07 AM,jordan.reyes@apexretail.com,maya.rao@brightloop.io,I'd like a demo,"Hi,
+
+I'd like a demo of the platform for our sales team (~12 reps). What times work this week?
+
+We're a revops team at Apex Retail Group and we're comparing a few options. Happy to work around your calendar.
+
+Thanks,
+Jordan
+Jordan Reyes
+Apex Retail Group",inbox
+E013,07-Jan-2025 10:10,maya.rao@brightloop.io,jordan.reyes@apexretail.com,Re: I'd like a demo,"Hi Jordan,
+
+Great to hear from you! Happy to set up a demo.
+
+You can pick a time here: https://cal.com/maya/30min
+
+If you have specific workflows you'd like to see, just reply and I'll prep them.
+
+Cheers,
+Maya",sent
+E014,01/08/2025 10:14 AM,sam.okafor@brightlinemedia.com,maya.rao@brightloop.io,Demo of your product for Brightline Media,"Hi,
+
+Interested in seeing how this works with our inbound flow. Please send a demo link.
+
+We're a demand team at Brightline Media and we're comparing a few options. Happy to work around your calendar.
+
+Thanks,
+Sam
+Sam Okafor
+Brightline Media",inbox
+E015,01/08/2025 11:17 AM,maya.rao@brightloop.io,sam.okafor@brightlinemedia.com,Re: Demo of your product for Brightline Media,"Hi Sam,
+
+Thanks for reaching out — I'd be glad to walk you through the product.
+
+Grab a slot that suits you: https://cal.com/maya/30min
+
+Talk soon!
+
+Maya",sent
+E016,2025-01-09 11:21,riley.chen@corevault.io,maya.rao@brightloop.io,Interested in a demo,"Hi,
+
+Our team lead asked me to reach out — could someone show us a quick demo?
+
+We're a sales team at Corevault Systems and we're comparing a few options. Happy to work around your calendar.
+
+Thanks,
+Riley
+Riley Chen
+Corevault Systems",inbox
+E017,2025-01-09 12:24,maya.rao@brightloop.io,riley.chen@corevault.io,Re: Interested in a demo,"Hi Riley,
+
+Thanks for your interest in AutoScout! I'd love to show you around.
+
+Here's my calendar link: https://cal.com/maya/30min
+
+Feel free to grab any slot that works for you. Looking forward to connecting!
+
+Best,
+Maya",sent
+E018,01/10/2025 12:28 PM,casey.silva@deltaharbor.com,maya.rao@brightloop.io,Request: product demo for Delta Harbor Foods,"Hi,
+
+Hi, we're trialling a few tools for pipeline hygiene. Can we schedule a demo?
+
+We're a operations team at Delta Harbor Foods and we're comparing a few options. Happy to work around your calendar.
+
+Thanks,
+Casey
+Casey Silva
+Delta Harbor Foods",inbox
+E019,2025-01-10 13:31,maya.rao@brightloop.io,casey.silva@deltaharbor.com,Re: Request: product demo for Delta Harbor Foods,"Hi Casey,
+
+Great to hear from you! Happy to set up a demo.
+
+You can pick a time here: https://cal.com/maya/30min
+
+If you have specific workflows you'd like to see, just reply and I'll prep them.
+
+Cheers,
+Maya",sent
+E020,01/06/2025 01:35 PM,morgan.novak@evergreenutil.com,maya.rao@brightloop.io,Demo request - Evergreen Utilities,"Hi,
+
+Looking for a demo to share with our VP Sales next week. Any availability?
+
+We're a procurement team at Evergreen Utilities and we're comparing a few options. Happy to work around your calendar.
+
+Thanks,
+Morgan
+Morgan Novak
+Evergreen Utilities",inbox
+E021,06-Jan-2025 14:38,maya.rao@brightloop.io,morgan.novak@evergreenutil.com,Re: Demo request - Evergreen Utilities,"Hi Morgan,
+
+Thanks for reaching out — I'd be glad to walk you through the product.
+
+Grab a slot that suits you: https://cal.com/maya/30min
+
+Talk soon!
+
+Maya",sent
+E022,01/07/2025 02:42 PM,avery.fischer@farsight.ai,maya.rao@brightloop.io,I'd like a demo,"Hi,
+
+We saw your webinar and would love a walkthrough of the product.
+
+We're a growth team at Farsight Analytics and we're comparing a few options. Happy to work around your calendar.
+
+Thanks,
+Avery
+Avery Fischer
+Farsight Analytics",inbox
+E023,01/07/2025 03:45 PM,maya.rao@brightloop.io,avery.fischer@farsight.ai,Re: I'd like a demo,"Hi Avery,
+
+Thanks for your interest in AutoScout! I'd love to show you around.
+
+Here's my calendar link: https://cal.com/maya/30min
+
+Feel free to grab any slot that works for you. Looking forward to connecting!
+
+Best,
+Maya",sent
+E024,2025-01-08 15:49,harper.costa@greenfieldpharma.com,maya.rao@brightloop.io,Demo of your product for Greenfield Pharma,"Hi,
+
+Could you set up a demo? We're a 40-person team drowning in manual spreadsheet work.
+
+We're a commercial team at Greenfield Pharma and we're comparing a few options. Happy to work around your calendar.
+
+Thanks,
+Harper
+Harper Costa
+Greenfield Pharma",inbox
+E025,08-Jan-2025 16:52,maya.rao@brightloop.io,harper.costa@greenfieldpharma.com,Re: Demo of your product for Greenfield Pharma,"Hi Harper,
+
+Great to hear from you! Happy to set up a demo.
+
+You can pick a time here: https://cal.com/maya/30min
+
+If you have specific workflows you'd like to see, just reply and I'll prep them.
+
+Cheers,
+Maya",sent
+E026,2025-01-09 08:56,quinn.haddad@heliomobility.com,maya.rao@brightloop.io,Interested in a demo,"Hi,
+
+Requesting a demo of your solution — we need to automate lead routing ASAP.
+
+We're a sales team at Helio Mobility and we're comparing a few options. Happy to work around your calendar.
+
+Thanks,
+Quinn
+Quinn Haddad
+Helio Mobility",inbox
+E027,2025-01-09 09:59,maya.rao@brightloop.io,quinn.haddad@heliomobility.com,Re: Interested in a demo,"Hi Quinn,
+
+Thanks for reaching out — I'd be glad to walk you through the product.
+
+Grab a slot that suits you: https://cal.com/maya/30min
+
+Talk soon!
+
+Maya",sent
+E028,2025-01-10 09:03,devon.rossi@ironcladins.com,maya.rao@brightloop.io,Request: product demo for Ironclad Insurance,"Hi,
+
+My name is with the revenue team; I'd like a demo focused on reporting.
+
+We're a ops team at Ironclad Insurance and we're comparing a few options. Happy to work around your calendar.
+
+Thanks,
+Devon
+Devon Rossi
+Ironclad Insurance",inbox
+E029,01/10/2025 10:06 AM,maya.rao@brightloop.io,devon.rossi@ironcladins.com,Re: Request: product demo for Ironclad Insurance,"Hi Devon,
+
+Thanks for your interest in AutoScout! I'd love to show you around.
+
+Here's my calendar link: https://cal.com/maya/30min
+
+Feel free to grab any slot that works for you. Looking forward to connecting!
+
+Best,
+Maya",sent
+E030,2025-01-06 10:10,taylor.iyer@junipernets.com,maya.rao@brightloop.io,Demo request - Juniper Networks,"Hi,
+
+Can we get a demo for our ops group? Especially interested in integrations.
+
+We're a gtm team at Juniper Networks and we're comparing a few options. Happy to work around your calendar.
+
+Thanks,
+Taylor
+Taylor Iyer
+Juniper Networks",inbox
+E031,01/06/2025 11:13 AM,maya.rao@brightloop.io,taylor.iyer@junipernets.com,Re: Demo request - Juniper Networks,"Hi Taylor,
+
+Great to hear from you! Happy to set up a demo.
+
+You can pick a time here: https://cal.com/maya/30min
+
+If you have specific workflows you'd like to see, just reply and I'll prep them.
+
+Cheers,
+Maya",sent
+E032,07-Jan-2025 11:17,kai.sharma@kryptonlabs.io,maya.rao@brightloop.io,I'd like a demo,"Hi,
+
+Would appreciate a demo link — evaluating three vendors this quarter.
+
+We're a revops team at Krypton Labs and we're comparing a few options. Happy to work around your calendar.
+
+Thanks,
+Kai
+Kai Sharma
+Krypton Labs",inbox
+E033,07-Jan-2025 12:20,maya.rao@brightloop.io,kai.sharma@kryptonlabs.io,Re: I'd like a demo,"Hi Kai,
+
+Thanks for reaching out — I'd be glad to walk you through the product.
+
+Grab a slot that suits you: https://cal.com/maya/30min
+
+Talk soon!
+
+Maya",sent
+E050,01/06/2025 11:00 AM,maya.rao@brightloop.io,team@brightloop.io,Follow-up: Weekly Pipeline Standup,"Hi all,
+
+Thanks for the discussion today. Quick recap and action items:
+
+Recap
+- Pipeline at $1.72M with 18 new leads.
+- Northwind Logistics advanced; Evergreen Utilities needs a re-touch.
+
+Action items
+- Maya to send updated status deck to Dana
+- Sam to prep the Northwind proposal
+
+I'll send the updated doc by EOD. Ping me if I missed anything.
+
+Best,
+Maya",sent
+E051,2025-01-07 12:13,maya.rao@brightloop.io,team@brightloop.io,Recap & action items – SDR Ramp Sync,"Hi all,
+
+Thanks for the discussion today. Quick recap and action items:
+
+Recap
+- Pipeline at $1.75M with 21 new leads.
+- Apex Retail Group advanced; Farsight Analytics needs a re-touch.
+
+Action items
+- Jordan to clean up duplicate accounts
+- Casey to update the security questionnaire
+
+I'll send the updated doc by EOD. Ping me if I missed anything.
+
+Best,
+Maya",sent
+E052,08-Jan-2025 13:26,maya.rao@brightloop.io,team@brightloop.io,Notes from Demo Feedback Review,"Hi all,
+
+Thanks for the discussion today. Quick recap and action items:
+
+Recap
+- Pipeline at $1.78M with 24 new leads.
+- Brightline Media advanced; Greenfield Pharma needs a re-touch.
+
+Action items
+- Riley to book two customer calls
+- Morgan to review SDR ramp metrics
+
+I'll send the updated doc by EOD. Ping me if I missed anything.
+
+Best,
+Maya",sent
+E053,01/09/2025 02:39 PM,maya.rao@brightloop.io,team@brightloop.io,Follow up from our Forecast & Deal Desk Call,"Hi all,
+
+Thanks for the discussion today. Quick recap and action items:
+
+Recap
+- Pipeline at $1.81M with 27 new leads.
+- Corevault Systems advanced; Helio Mobility needs a re-touch.
+
+Action items
+- Avery to rebuild the lead scoring model
+- Harper to share competitor battlecards
+
+I'll send the updated doc by EOD. Ping me if I missed anything.
+
+Best,
+Maya",sent
+E054,10-Jan-2025 15:52,maya.rao@brightloop.io,team@brightloop.io,Follow-up: Revenue Ops Retro,"Hi all,
+
+Thanks for the discussion today. Quick recap and action items:
+
+Recap
+- Pipeline at $1.84M with 30 new leads.
+- Delta Harbor Foods advanced; Ironclad Insurance needs a re-touch.
+
+Action items
+- Quinn to refresh demo environment data
+- Devon to close out Q4 forecast gaps
+
+I'll send the updated doc by EOD. Ping me if I missed anything.
+
+Best,
+Maya",sent
+E070,06-Jan-2025 06:00,saleshackerweekly@newsletter.example.com,maya.rao@brightloop.io,Top 10 outbound cadences for 2025,"Top 10 outbound cadences for 2025
+
+This week we cover: top 10 outbound cadences for 2025, plus a teardown of a real outbound sequence. Read time: 6 minutes.
+
+Forward to a teammate who'd find this useful.
+
+- The Sales Hacker Weekly team",inbox
+E071,07-Jan-2025 07:11,revenuedigest@newsletter.example.com,maya.rao@brightloop.io,Why your demo-to-close rate is slipping,"Why your demo-to-close rate is slipping
+
+This week we cover: why your demo-to-close rate is slipping, plus a teardown of a real outbound sequence. Read time: 6 minutes.
+
+Forward to a teammate who'd find this useful.
+
+- The Revenue Digest team",inbox
+E072,08-Jan-2025 08:22,saastrdaily@newsletter.example.com,maya.rao@brightloop.io,The state of PLG in 2025,"The state of PLG in 2025
+
+This week we cover: the state of plg in 2025, plus a teardown of a real outbound sequence. Read time: 6 minutes.
+
+Forward to a teammate who'd find this useful.
+
+- The SaaStr Daily team",inbox
+E073,01/09/2025 09:33 AM,gtmwire@newsletter.example.com,maya.rao@brightloop.io,Territory planning myths busted,"Territory planning myths busted
+
+This week we cover: territory planning myths busted, plus a teardown of a real outbound sequence. Read time: 6 minutes.
+
+Forward to a teammate who'd find this useful.
+
+- The GTM Wire team",inbox
+E074,10-Jan-2025 06:44,pipelineinsider@newsletter.example.com,maya.rao@brightloop.io,Cold email deliverability fixes,"Cold email deliverability fixes
+
+This week we cover: cold email deliverability fixes, plus a teardown of a real outbound sequence. Read time: 6 minutes.
+
+Forward to a teammate who'd find this useful.
+
+- The Pipeline Insider team",inbox
+E075,2025-01-06 07:55,crmgazette@newsletter.example.com,maya.rao@brightloop.io,Clean up your CRM in 30 minutes,"Clean up your CRM in 30 minutes
+
+This week we cover: clean up your crm in 30 minutes, plus a teardown of a real outbound sequence. Read time: 6 minutes.
+
+Forward to a teammate who'd find this useful.
+
+- The CRM Gazette team",inbox
+E076,01/06/2025 07:00 AM,calendar@example.com,maya.rao@brightloop.io,Invitation: Product walkthrough,"Invitation
+
+When: Mon, Jan 6, 2025, 9:00 AM - 10:00 AM
+Where: Zoom (link below)
+
+You have been invited to Product walkthrough. Please accept or decline.
+
+Zoom link: https://zoom.example.com/j/100000000
+Organizer: Tatum Silva",inbox
+E077,07-Jan-2025 08:13,calendar@example.com,maya.rao@brightloop.io,Invitation: 1:1 with Dana,"Invitation
+
+When: Tue, Jan 7, 2025, 10:00 AM - 11:00 AM
+Where: Zoom (link below)
+
+You have been invited to 1:1 with Dana. Please accept or decline.
+
+Zoom link: https://zoom.example.com/j/100000001
+Organizer: Jamie Mendes",inbox
+E078,01/08/2025 09:26 AM,calendar@example.com,maya.rao@brightloop.io,Invitation: All-hands,"Invitation
+
+When: Wed, Jan 8, 2025, 11:00 AM - 12:00 AM
+Where: Zoom (link below)
+
+You have been invited to All-hands. Please accept or decline.
+
+Zoom link: https://zoom.example.com/j/100000002
+Organizer: Avery Dubois",inbox
+E079,2025-01-09 10:39,calendar@example.com,maya.rao@brightloop.io,Invitation: Pipeline sync,"Invitation
+
+When: Thu, Jan 9, 2025, 12:00 AM - 13:00 AM
+Where: Zoom (link below)
+
+You have been invited to Pipeline sync. Please accept or decline.
+
+Zoom link: https://zoom.example.com/j/100000003
+Organizer: Skyler Petrov",inbox
+E080,01/10/2025 11:52 AM,calendar@example.com,maya.rao@brightloop.io,Invitation: Pipeline sync,"Invitation
+
+When: Fri, Jan 10, 2025, 13:00 AM - 14:00 AM
+Where: Zoom (link below)
+
+You have been invited to Pipeline sync. Please accept or decline.
+
+Zoom link: https://zoom.example.com/j/100000004
+Organizer: Frankie Garcia",inbox
+E081,2025-01-06 12:00,harper.larsen@social.example.com,maya.rao@brightloop.io,Harper Larsen mentioned you,"Rowan Kowalski and Charlie Kowalski commented on a post you follow:
+
+""Anyone else hitting this?""
+
+View the thread or adjust your notifications.",inbox
+E082,07-Jan-2025 13:17,alex.moreau@social.example.com,maya.rao@brightloop.io,Alex Moreau mentioned you,"Riley Chen and Emerson Iyer commented on a post you follow:
+
+""Anyone else hitting this?""
+
+View the thread or adjust your notifications.",inbox
+E083,08-Jan-2025 14:34,harley.sharma@social.example.com,maya.rao@brightloop.io,Harley Sharma mentioned you,"Sage Costa and Taylor Sharma commented on a post you follow:
+
+""Congrats on the launch!""
+
+View the thread or adjust your notifications.",inbox
+E084,2025-01-09 15:51,harley.haddad@social.example.com,maya.rao@brightloop.io,Harley Haddad mentioned you,"Kai Andersson and Taylor Nguyen commented on a post you follow:
+
+""Anyone else hitting this?""
+
+View the thread or adjust your notifications.",inbox
+E085,10-Jan-2025 16:08,harley.patel@social.example.com,maya.rao@brightloop.io,Harley Patel mentioned you,"Emerson Patel and Taylor Fischer commented on a post you follow:
+
+""This is huge - well done team.""
+
+View the thread or adjust your notifications.",inbox
+E086,01/06/2025 09:00 AM,quinn.iyer@brightloop.io,maya.rao@brightloop.io,Q1 territory plan,Draft territories are ready for review; please add comments by EOD.,inbox
+E087,07-Jan-2025 10:19,blake.kaur@brightloop.io,maya.rao@brightloop.io,CRM hygiene sweep,Duplicate accounts reduced by 18% this week. Keep flagging stragglers.,inbox
+E088,08-Jan-2025 11:38,dakota.nguyen@brightloop.io,maya.rao@brightloop.io,New SDR pod,Two new SDRs start Monday; ramp schedule is attached.,inbox
+E089,2025-01-09 12:57,priya.petrov@brightloop.io,maya.rao@brightloop.io,Pricing experiment,Variant B shows +6% demo bookings. Recommend shipping it.,inbox
+E090,01/10/2025 01:16 PM,frankie.chen@brightloop.io,maya.rao@brightloop.io,Webinar follow-up,"142 registrants, 61 live. Reminder sequences queued.",inbox
+E091,01/06/2025 02:35 PM,harper.patel@brightloop.io,maya.rao@brightloop.io,Onboarding revamp,Time-to-first-value dropped from 21 to 14 days.,inbox
+E092,01/07/2025 03:54 PM,jordan.bauer@brightloop.io,maya.rao@brightloop.io,Partner referral program,Three partners signed; MDF paperwork pending.,inbox
+E093,10-Jan-2025 14:00,dana.whitfield@brightloop.io,maya.rao@brightloop.io,One-time: prep board deck numbers,"Maya — one-off ask: can you pull the pipeline numbers for the board deck by Monday? This is a one-time thing, not a recurring report. Thanks, Dana",inbox
+E094,08-Jan-2025 10:30,riley.chen@corevault.io,maya.rao@brightloop.io,Re: contract signature page,"Hi Maya — attaching the countersigned contract page. Just this once, please file it and confirm. No need for any process change. Thanks!
+Riley",inbox

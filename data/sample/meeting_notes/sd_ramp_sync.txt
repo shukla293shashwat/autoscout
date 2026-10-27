@@ -1,0 +1,24 @@
+SDR Ramp Sync
+Monday, January 06, 2025  |  10:01 - 10:41 AM  |  Zoom
+Attendees: Maya Rao, Dana Whitfield, Jordan, Casey
+
+Discussion
+- Pipeline is at $1.75M with 21 new leads this week.
+- Apex Retail Group moved forward; Farsight Analytics went quiet after the last touch.
+- Inbound demo requests keep coming in — someone has to log them by hand.
+- The weekly status email took most of Friday afternoon again.
+- Nobody enjoys copying rows from the inbox into the spreadsheet.
+
+Decisions
+- Keep the Friday send time at 4:30pm.
+- Jordan to clean up duplicate accounts.
+- Casey to update the security questionnaire.
+
+Action items
+- Jordan to clean up duplicate accounts — due Tue EOD.
+- Casey to update the security questionnaire — due Wed.
+- Maya to compile follow-up notes and share with the group.
+
+Parking lot
+- Evaluate automating the status email next quarter.
+- Look into a lead capture form for the website.

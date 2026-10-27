@@ -1,0 +1,118 @@
+{
+  "persona": "Maya Rao, sales operations manager at a 30-person B2B SaaS company",
+  "generated_at": "2025-01-10T18:00:00",
+  "seed": 20250106,
+  "patterns": [
+    {
+      "id": "A",
+      "name": "Weekly pipeline status email",
+      "description": "Every Friday (and often on other days) Maya writes a nearly identical email to leadership summarizing deals from the leads sheet.",
+      "minutes_per_occurrence": 25,
+      "source_ids": [
+        "E001",
+        "E002",
+        "E003",
+        "E004",
+        "E005",
+        "E006",
+        "T001",
+        "T002"
+      ],
+      "kinds": [
+        "email",
+        "task"
+      ]
+    },
+    {
+      "id": "B",
+      "name": "Inbound lead copy-paste",
+      "description": "Maya manually copies inbound demo-request emails into leads.csv and replies with a near-identical template.",
+      "minutes_per_occurrence": 6,
+      "source_ids": [
+        "E010",
+        "E012",
+        "E014",
+        "E016",
+        "E018",
+        "E020",
+        "E022",
+        "E024",
+        "E026",
+        "E028",
+        "E030",
+        "E032",
+        "E011",
+        "E013",
+        "E015",
+        "E017",
+        "E019",
+        "E021",
+        "E023",
+        "E025",
+        "E027",
+        "E029",
+        "E031",
+        "E033"
+      ],
+      "kinds": [
+        "email"
+      ]
+    },
+    {
+      "id": "C",
+      "name": "Meeting follow-ups",
+      "description": "After each meeting Maya manually writes a follow-up email and creates tasks for the action items.",
+      "minutes_per_occurrence": 15,
+      "source_ids": [
+        "pipeline_standup",
+        "sd_ramp_sync",
+        "demo_review",
+        "forecast_call",
+        "ops_retro",
+        "E050",
+        "E051",
+        "E052",
+        "E053",
+        "E054",
+        "T010",
+        "T011",
+        "T012",
+        "T013",
+        "T014",
+        "T015",
+        "T016",
+        "T017",
+        "T018",
+        "T019"
+      ],
+      "kinds": [
+        "note",
+        "email",
+        "task"
+      ]
+    }
+  ],
+  "non_patterns": [
+    {
+      "id": "E093",
+      "kind": "email",
+      "reason": "one-off board deck request, appears once"
+    },
+    {
+      "id": "E094",
+      "kind": "email",
+      "reason": "one-off contract filing request, appears once"
+    },
+    {
+      "id": "T042",
+      "kind": "task",
+      "reason": "one-off contract filing task, appears once"
+    }
+  ],
+  "expected_counts": {
+    "emails": 60,
+    "leads": 30,
+    "tasks": 25,
+    "notes": 5
+  }
+}

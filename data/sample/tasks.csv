@@ -1,0 +1,26 @@
+id,title,due,status,project,notes
+T001,Send weekly pipeline status to leadership,2025-01-10,done,Reporting,"Summarize deals from leads sheet, send before 5pm."
+T002,Compile weekly pipeline status email,01/17/2025,todo,Reporting,"Same as every Friday: pull numbers, write summary, send to Dana."
+T010,Send status deck (from Weekly Pipeline Standup),2025-01-06,todo,Meetings,Action item from Weekly Pipeline Standup on Mon.
+T011,Prep Northwind proposal (from Weekly Pipeline Standup),2025-01-07,done,Meetings,Action item from Weekly Pipeline Standup on Mon.
+T012,Clean duplicate accounts (from SDR Ramp Sync),2025-01-07,todo,Meetings,Action item from SDR Ramp Sync on Tue.
+T013,Update security questionnaire (from SDR Ramp Sync),2025-01-08,done,Meetings,Action item from SDR Ramp Sync on Tue.
+T014,Book customer calls (from Demo Feedback Review),2025-01-08,todo,Meetings,Action item from Demo Feedback Review on Wed.
+T015,Review SDR ramp metrics (from Demo Feedback Review),2025-01-09,done,Meetings,Action item from Demo Feedback Review on Wed.
+T016,Rebuild lead scoring model (from Forecast & Deal Desk Call),2025-01-09,todo,Meetings,Action item from Forecast & Deal Desk Call on Thu.
+T017,Share battlecards (from Forecast & Deal Desk Call),2025-01-10,done,Meetings,Action item from Forecast & Deal Desk Call on Thu.
+T018,Refresh demo data (from Revenue Ops Retro),2025-01-10,todo,Meetings,Action item from Revenue Ops Retro on Fri.
+T019,Close forecast gaps (from Revenue Ops Retro),2025-01-06,done,Meetings,Action item from Revenue Ops Retro on Fri.
+T030,Update CRM stages for new deals,2025-01-07,done,Sales Ops,
+T031,Rebuild the lead scoring model,2025-01-08,done,Sales Ops,
+T032,Clean up duplicate accounts,2025-01-09,todo,Sales Ops,
+T033,Book two customer reference calls,2025-01-10,todo,Sales Ops,
+T034,Review SDR ramp metrics,2025-01-09,done,Sales Ops,
+T035,Share competitor battlecards,2025-01-08,todo,Marketing,
+T036,Refresh demo environment data,2025-01-10,todo,Sales Ops,
+T037,Close out Q4 forecast gaps,2025-01-07,done,Finance,
+T038,Document the follow-up checklist,2025-01-10,todo,Sales Ops,
+T039,Audit webhook failures,2025-01-09,todo,Engineering,
+T040,Draft the partner one-pager,2025-01-07,todo,Partnerships,
+T041,Schedule the pricing review,2025-01-08,done,Finance,
+T042,File the signed Corevault contract,2025-01-10,todo,Legal,

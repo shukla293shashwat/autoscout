@@ -1,0 +1,24 @@
+Weekly Pipeline Standup
+Monday, January 06, 2025  |  10:00 - 10:40 AM  |  Zoom
+Attendees: Maya Rao, Dana Whitfield, Maya, Sam
+
+Discussion
+- Pipeline is at $1.72M with 18 new leads this week.
+- Northwind Logistics moved forward; Evergreen Utilities went quiet after the last touch.
+- Inbound demo requests keep coming in — someone has to log them by hand.
+- The weekly status email took most of Friday afternoon again.
+- Nobody enjoys copying rows from the inbox into the spreadsheet.
+
+Decisions
+- Keep the Friday send time at 4:30pm.
+- Maya to send updated status deck to Dana.
+- Sam to prep the Northwind proposal.
+
+Action items
+- Maya to send updated status deck to Dana — due Mon EOD.
+- Sam to prep the Northwind proposal — due Tue.
+- Maya to compile follow-up notes and share with the group.
+
+Parking lot
+- Evaluate automating the status email next quarter.
+- Look into a lead capture form for the website.
