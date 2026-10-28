@@ -285,7 +285,7 @@ class WorkflowCandidate(BaseModel):
     steps: list[str] = Field(description="Manual steps the person performs")
     inputs: list[str] = Field(default_factory=list)
     outputs: list[str] = Field(default_factory=list)
-    minutes_per_occurrence_estimate: int = Field(ge=0, le=480)
+    minutes_per_occurrence_estimate: int = Field(default=15, ge=0, le=480)
     time_rationale: str = Field(default="")
     automation_feasibility: str = Field(default="medium")  # high|medium|low
     feasibility_reason: str = Field(default="")

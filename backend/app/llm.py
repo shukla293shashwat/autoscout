@@ -98,6 +98,10 @@ def _mock_completion(system: str, user: str, schema: type[BaseModel]) -> dict[st
                     return sample(opt)
             return None
         kind = value_schema.get("type")
+        # Honor an explicit schema default (gives the mock plausible, non-zero
+        # values for constrained fields like minutes-per-occurrence).
+        if "default" in value_schema:
+            return value_schema["default"]
         if kind == "string":
             if "enum" in value_schema:
                 return value_schema["enum"][0]
@@ -108,9 +112,9 @@ def _mock_completion(system: str, user: str, schema: type[BaseModel]) -> dict[st
                 return "2025-01-06"
             return "mock"
         if kind == "integer":
-            return 0
+            return value_schema.get("minimum", 0)
         if kind == "number":
-            return 0.0
+            return float(value_schema.get("minimum", 0.0))
         if kind == "boolean":
             return False
         if kind == "array":

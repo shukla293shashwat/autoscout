@@ -44,10 +44,10 @@ Health check: `GET http://localhost:8000/health` -> `{"status":"ok"}`
 ## Roadmap
 
 - [x] Phase 0 — Project setup
-- [ ] Phase 1 — Realistic sample dataset
-- [ ] Phase 2 — Ingestion and normalization
-- [ ] Phase 3 — Pattern discovery
-- [ ] Phase 4 — ROI scoring
+- [x] Phase 1 — Realistic sample dataset
+- [x] Phase 2 — Ingestion and normalization
+- [x] Phase 3 — Pattern discovery
+- [x] Phase 4 — ROI scoring
 - [ ] Phase 5 — Safe automation generator and sandbox
 - [ ] Phase 6 — Frontend
 - [ ] Phase 7 — Reliability and testing
