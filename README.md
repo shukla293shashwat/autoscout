@@ -48,7 +48,7 @@ Health check: `GET http://localhost:8000/health` -> `{"status":"ok"}`
 - [x] Phase 2 — Ingestion and normalization
 - [x] Phase 3 — Pattern discovery
 - [x] Phase 4 — ROI scoring
-- [ ] Phase 5 — Safe automation generator and sandbox
+- [x] Phase 5 — Safe automation generator and sandbox
 - [ ] Phase 6 — Frontend
 - [ ] Phase 7 — Reliability and testing
 - [ ] Phase 8 — Documentation and submission assets

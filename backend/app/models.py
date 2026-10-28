@@ -68,3 +68,20 @@ class Workflow(Base):
     low_confidence: Mapped[int] = mapped_column(Integer, nullable=False, default=0)
     time_rationale: Mapped[str] = mapped_column(String(512), nullable=False, default="")
     feasibility_reason: Mapped[str] = mapped_column(String(512), nullable=False, default="")
+
+
+class AuditLog(Base):
+    """Every automation run (dry_run or executed) is recorded here."""
+
+    __tablename__ = "audit_logs"
+
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
+    workflow_id: Mapped[int] = mapped_column(
+        Integer, ForeignKey("workflows.id", ondelete="CASCADE"), nullable=False, index=True
+    )
+    mode: Mapped[str] = mapped_column(String(16), nullable=False, default="dry_run")
+    approved_by: Mapped[str] = mapped_column(String(128), nullable=False, default="")
+    started_at: Mapped[datetime] = mapped_column(DateTime, default=lambda: datetime.now(UTC))
+    finished_at: Mapped[datetime | None] = mapped_column(DateTime, nullable=True)
+    step_results: Mapped[str] = mapped_column(Text, nullable=False, default="[]")
+    status: Mapped[str] = mapped_column(String(32), nullable=False, default="ok")
