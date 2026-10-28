@@ -216,7 +216,7 @@ def generate_json(
             last_error = exc
             current_user = (
                 f"{user}\n\nYour previous JSON failed validation with this error:\n"
-                f"{exc.errors_json}\nReturn corrected JSON only."
+                f"{json.dumps(exc.errors(), default=str)}\nReturn corrected JSON only."
             )
             logger.warning("LLM validation failed (attempt %d/%d): %s", attempt + 1, retries + 1, exc)
         except LLMError as exc:

@@ -6,3 +6,7 @@ pydantic-settings>=2.2,<3.0
 python-multipart>=0.0.9
 httpx>=0.27,<1.0
 pytest>=8.0,<9.0
+
+# Phase 3: pattern discovery (embeddings + clustering)
+sentence-transformers>=6.0
+scikit-learn>=1.6

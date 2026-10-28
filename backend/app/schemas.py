@@ -40,3 +40,24 @@ class ErrorResponse(BaseModel):
     """Friendly error payload for 4xx responses."""
 
     detail: str
+
+
+class WorkflowOut(BaseModel):
+    """Serialized Workflow for API responses."""
+
+    model_config = ConfigDict(from_attributes=True)
+
+    id: int
+    upload_id: int
+    name: str
+    description: str
+    trigger: str
+    steps: str
+    minutes_per_occurrence: int
+    occurrences: int
+    feasibility: str
+    evidence: str
+    status: str
+    low_confidence: int
+    time_rationale: str
+    feasibility_reason: str

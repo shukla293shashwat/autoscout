@@ -7,7 +7,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from app.config import settings
 from app.db import init_db
-from app.routers import uploads
+from app.routers import discover, uploads
 from app.schemas import HealthResponse
 
 logging.basicConfig(
@@ -38,6 +38,7 @@ app.add_middleware(
 )
 
 app.include_router(uploads.router)
+app.include_router(discover.router)
 
 
 @app.get("/health", response_model=HealthResponse)
