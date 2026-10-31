@@ -12,3 +12,31 @@ body {
   @apply bg-neutral-50 text-neutral-900 antialiased;
   font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
 }
+
+/* Bubble map entrance: grow in + settle. */
+@keyframes bubbleIn {
+  0% {
+    opacity: 0;
+    transform: translate(var(--bx), var(--by)) scale(0.2);
+  }
+  70% {
+    opacity: 1;
+    transform: translate(var(--bx), var(--by)) scale(1.06);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(var(--bx), var(--by)) scale(1);
+  }
+}
+
+.bubble-enter {
+  animation: bubbleIn 640ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* Note: the SVG <g> uses the transform attribute for position; the keyframe
+   above re-applies translate() via CSS vars as a fallback for browsers that
+   prioritize the animation transform. We set --bx/--by inline per bubble. */
+.bubble-enter {
+  transform-box: view-box;
+  transform-origin: center;
+}
