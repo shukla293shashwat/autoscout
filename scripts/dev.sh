@@ -16,6 +16,13 @@ case "${1:-}" in
     cd backend
     python -m pytest -q
     ;;
+  run)
+    (cd backend && python -m uvicorn app.main:app --reload --port 8000) &
+    (cd frontend && npm run dev) &
+    echo "Backend  -> http://localhost:8000/health"
+    echo "Frontend -> http://localhost:5173"
+    wait
+    ;;
   *)
     echo "Usage: scripts/dev.sh [backend-dev|frontend-dev|test]" >&2
     exit 1
