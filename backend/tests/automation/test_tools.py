@@ -58,6 +58,49 @@ def test_append_csv_row_blocks_path_traversal(out_dir) -> None:
         append_csv_row("../../evil.csv", {"a": "1"}, dry_run=False)
 
 
+def test_append_csv_row_blocks_absolute_path(out_dir) -> None:
+    with pytest.raises(SandboxError):
+        append_csv_row("/tmp/evil.csv", {"a": "1"}, dry_run=False)
+
+
+def test_append_csv_row_blocks_windows_drive_path(out_dir) -> None:
+    with pytest.raises(SandboxError):
+        append_csv_row("C:\\Windows\\evil.csv", {"a": "1"}, dry_run=False)
+
+
+def test_append_csv_row_blocks_nested_path(out_dir) -> None:
+    with pytest.raises(SandboxError):
+        append_csv_row("sub/evil.csv", {"a": "1"}, dry_run=False)
+
+
+def test_append_csv_row_blocks_empty_filename(out_dir) -> None:
+    with pytest.raises(SandboxError):
+        append_csv_row("", {"a": "1"}, dry_run=False)
+
+
+def test_append_csv_row_blocks_sibling_prefix_escape(out_dir, tmp_path) -> None:
+    # "output_evil" is a sibling of OUTPUT_DIR, not inside it — must be rejected
+    # even though its path string *starts with* the OUTPUT_DIR string.
+    import app.services.automation as auto
+    # A filename that resolves to a sibling sharing the output dir's prefix.
+    monkey_sibling = tmp_path / "output"
+    monkey_sibling.mkdir(parents=True, exist_ok=True)
+    auto.OUTPUT_DIR = monkey_sibling
+    with pytest.raises(SandboxError):
+        append_csv_row("..evil.csv", {"a": "1"}, dry_run=False)
+    auto.OUTPUT_DIR = tmp_path / "output"  # restore
+
+
+def test_resolve_read_path_blocks_traversal(out_dir) -> None:
+    with pytest.raises(SandboxError):
+        summarize_table("../../etc/passwd.csv", group_by="x")
+
+
+def test_resolve_read_path_blocks_absolute(out_dir) -> None:
+    with pytest.raises(SandboxError):
+        summarize_table("/etc/passwd", group_by="x")
+
+
 def test_draft_email_dry_run_writes_nothing(out_dir) -> None:
     res = draft_email("a@b.com", "Hi", "Body", dry_run=True)
     assert res["dry_run"] is True
@@ -120,6 +163,40 @@ def test_run_plan_unresolved_placeholder_rejected(out_dir) -> None:
     )
     with pytest.raises(PlanError):
         run_plan(plan, inputs={}, dry_run=True)
+
+
+def test_run_plan_rejects_too_many_steps(out_dir) -> None:
+    from app.services.automation import MAX_PLAN_STEPS
+
+    plan = AutomationPlan(
+        name="huge", trigger="t",
+        steps=[AutomationStep(tool="create_task",
+                              args_template={"title": "x"})] * (MAX_PLAN_STEPS + 1),
+    )
+    with pytest.raises(PlanError):
+        run_plan(plan, inputs={}, dry_run=True)
+
+
+def test_run_plan_rejects_oversized_arg_value(out_dir) -> None:
+    from app.services.automation import MAX_ARG_CHARS
+
+    plan = AutomationPlan(
+        name="huge", trigger="t",
+        steps=[AutomationStep(tool="draft_email", args_template={
+            "to": "a@b.com", "subject": "s", "body": "x" * (MAX_ARG_CHARS + 1)})],
+    )
+    with pytest.raises(PlanError):
+        run_plan(plan, inputs={}, dry_run=True)
+
+
+def test_run_plan_accepts_reasonable_plan(out_dir) -> None:
+    plan = AutomationPlan(
+        name="small", trigger="t",
+        steps=[AutomationStep(tool="create_task",
+                              args_template={"title": "Buy milk"})],
+    )
+    results = run_plan(plan, inputs={}, dry_run=True)
+    assert results and results[0]["status"] == "ok"
 
 
 def test_run_plan_dry_run_produces_no_files(out_dir) -> None:

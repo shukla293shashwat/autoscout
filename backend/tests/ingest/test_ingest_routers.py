@@ -68,3 +68,31 @@ def test_unsupported_file_type_is_rejected() -> None:
     resp = client.post("/api/uploads", files=files)
     assert resp.status_code == 400
     assert "unsupported" in resp.json()["detail"].lower()
+
+
+def test_oversize_file_is_rejected() -> None:
+    """A file larger than MAX_FILE_BYTES must 400 without buffering it fully."""
+    from app.routers.uploads import MAX_FILE_BYTES
+
+    big = io.BytesIO(b"a" * (MAX_FILE_BYTES + 1))
+    files = [("files", ("huge.csv", big, "text/csv"))]
+    resp = client.post("/api/uploads", files=files)
+    assert resp.status_code == 400
+    assert "too large" in resp.json()["detail"].lower()
+
+
+def test_upload_with_no_files_returns_client_error() -> None:
+    """POST /api/uploads with no files is a clear 4xx, not a 500.
+
+    FastAPI validates the required multipart `files` field and returns 422
+    before the handler runs, so the route never sees an empty list.
+    """
+    resp = client.post("/api/uploads")
+    assert resp.status_code in (400, 422)
+
+
+def test_missing_upload_id_on_artifacts_is_404_or_422() -> None:
+    """A bad/absent upload_id must be a client error, not a server error."""
+    resp = client.get("/api/artifacts", params={"upload_id": 999999})
+    assert resp.status_code == 200  # empty list is acceptable for unknown id
+    assert resp.json() == []

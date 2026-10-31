@@ -22,6 +22,9 @@ backend/autoscout.db
 # LLM response cache
 backend/.llm_cache/
 
+# Embedding cache (built at runtime)
+backend/.embed_cache/
+
 # Output artifacts (created at runtime by automations)
 data/output/
 

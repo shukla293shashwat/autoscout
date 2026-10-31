@@ -38,6 +38,13 @@ DRAFTS_DIR = OUTPUT_DIR / "drafts"
 
 _PLACEHOLDER = re.compile(r"\{\{\s*([a-zA-Z0-9_]+)\s*\}\}")
 
+# Input bounds (defense-in-depth against a runaway / hallucinated plan):
+#   * A plan may not contain more than MAX_PLAN_STEPS steps.
+#   * No single resolved arg value may exceed MAX_ARG_CHARS characters.
+#   * The total steps executed per plan run is capped by MAX_PLAN_STEPS.
+MAX_PLAN_STEPS = 50
+MAX_ARG_CHARS = 20_000
+
 
 class AutomationError(Exception):
     """Base error for automation/tool execution."""
@@ -249,6 +256,12 @@ def run_plan(
     """
     context: dict[str, Any] = dict(inputs or {})
     results: list[dict[str, Any]] = []
+
+    if len(plan.steps) > MAX_PLAN_STEPS:
+        raise PlanError(
+            f"Plan has {len(plan.steps)} steps; max allowed is {MAX_PLAN_STEPS}"
+        )
+
     for idx, step in enumerate(plan.steps, start=1):
         if step.tool not in TOOLS:
             raise PlanError(f"Unknown tool {step.tool!r} at step {idx}")
@@ -256,6 +269,12 @@ def run_plan(
             args = _resolve_args(step.args_template, context)
         except PlanError as exc:
             raise PlanError(f"step {idx}: {exc}") from exc
+
+        for key, val in args.items():
+            if isinstance(val, str) and len(val) > MAX_ARG_CHARS:
+                raise PlanError(
+                    f"step {idx}: arg {key!r} exceeds {MAX_ARG_CHARS} chars"
+                )
 
         try:
             result = TOOLS[step.tool](dry_run=dry_run, **args)
