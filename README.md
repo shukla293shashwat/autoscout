@@ -92,7 +92,38 @@ generation run with zero network/API-key setup. Set `LLM_PROVIDER=openai` and
 - [x] Phase 6 — Frontend
 - [x] Phase 7 — Reliability and testing
 - [x] Phase 8 — Documentation and submission assets
-- [ ] Phase 9 — Deployment
+- [x] Phase 9 — Deployment
+
+## Deployment (Docker)
+
+The app ships as a **single container**: a multi-stage `Dockerfile` builds the
+frontend (Vite + `tsc`) and runs the FastAPI server, which serves the built SPA
+from `/` alongside the JSON API on one port (`:8000`).
+
+```bash
+# Build + run on http://localhost:8000
+docker compose up --build
+
+# Or with make:
+make docker-run      # build + compose up -d
+make docker-stop     # compose down
+```
+
+What's inside:
+
+- **CPU-only torch** — pulls from the PyTorch CPU wheel index, so the image is
+  ~2.1 GB instead of ~9.6 GB with CUDA libraries you don't need for inference.
+- **Persistence** — the SQLite DB and generated outputs live in named volumes
+  (`autoscout-data`, `autoscout-output`) so restarts don't lose runs.
+- **Healthcheck** — compose polls `/health` every 15 s.
+- **Offline by default** — `LLM_PROVIDER=mock` means no API key needed. For real
+  LLM names/plans: `LLM_PROVIDER=openai LLM_API_KEY=sk-... docker compose up`.
+  (With `mock`, discovered workflows get the placeholder name `mock`; a real LLM
+  returns proper plain-English names.)
+
+Verified end-to-end in a container: `/health`, built SPA at `/` + SPA routes,
+`/assets/*` with correct MIME types, `/api/uploads/sample`, discovery
+(embeddings on CPU), and ROI-ranked `/api/workflows`.
 
 ## License
 

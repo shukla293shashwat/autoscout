@@ -1,0 +1,29 @@
+# Build context noise — keep the image lean and reproducible.
+.git
+.github
+.gitignore
+
+# Node / frontend build artifacts
+frontend/node_modules
+frontend/dist
+
+# Python runtime caches
+backend/.venv
+backend/**/__pycache__
+backend/.pytest_cache
+backend/.llm_cache
+backend/.embed_cache
+backend/autoscout.db
+
+# Generated outputs (regenerated at runtime)
+data/output
+
+# Local logs / env
+*.log
+*.env.local
+.env
+
+# Editor / OS
+.vscode
+.idea
+.DS_Store

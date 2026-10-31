@@ -1,0 +1,25 @@
+services:
+  autoscout:
+    build: .
+    image: autoscout:latest
+    ports:
+      - "8000:8000"
+    environment:
+      LLM_PROVIDER: ${LLM_PROVIDER:-mock}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      LLM_MODEL: ${LLM_MODEL:-gpt-4o-mini}
+      CORS_ORIGINS: '["*"]'
+    volumes:
+      # Persist the SQLite DB + generated outputs across restarts.
+      - autoscout-data:/app/backend
+      - autoscout-output:/app/data/output
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request;urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+
+volumes:
+  autoscout-data:
+  autoscout-output:
